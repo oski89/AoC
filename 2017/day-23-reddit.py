@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 
-with open('day-23-input') as f:
+with open('input/23.txt') as f:
     instructions = f.readlines()
 
 

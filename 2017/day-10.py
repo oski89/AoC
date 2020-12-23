@@ -1,6 +1,6 @@
 from typing import List
 
-with open('day-10-input') as f:
+with open('input/10.txt') as f:
     my_lengths: List[int] = [int(x) for x in f.read().split(',')]
 
 

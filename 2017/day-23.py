@@ -1,4 +1,4 @@
-with open('day-23-input') as f:
+with open('input/23.txt') as f:
     INPUT = [lines.split() for lines in f.readlines()]
 
 # ---

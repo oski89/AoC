@@ -1,6 +1,6 @@
 import string
 
-with open('day-07-input', 'r') as file:
+with open('input/07.txt', 'r') as file:
     my_data = file.read().strip().split('\n')
 
 rules = dict.fromkeys(string.ascii_uppercase, [])

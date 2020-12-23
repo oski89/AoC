@@ -1,6 +1,6 @@
 from itertools import cycle
 
-with open('day-01-input', 'r') as file:
+with open('input/01.txt', 'r') as file:
     my_data = file.read().split()
 
 # Part 1

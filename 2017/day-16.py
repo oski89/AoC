@@ -1,7 +1,7 @@
 from typing import List
 
 TEST_INPUT = 's1,x3/4,pe/b'
-with open('day-16-input') as f:
+with open('input/16.txt') as f:
     INPUT = f.read()
 
 

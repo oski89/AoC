@@ -1,4 +1,4 @@
-with open('day-08-input', 'r') as file:
+with open('input/08.txt', 'r') as file:
     my_data = list(map(int, file.read().split()))
 
 my_list = list(my_data)

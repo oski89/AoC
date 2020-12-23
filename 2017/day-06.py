@@ -2,7 +2,7 @@ from typing import *
 
 TEST_INPUT = "0	2	7	0"
 
-with open('day-6-input') as f:
+with open('input/06.txt') as f:
     INPUT = f.read()
 
 

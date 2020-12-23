@@ -1,6 +1,6 @@
 from __future__ import print_function
 
-with open('day-05-input', 'r') as file:
+with open('input/05.txt', 'r') as file:
     my_data = file.read()
 
 def rem_pol(string):

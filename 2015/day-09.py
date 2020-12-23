@@ -1,4 +1,4 @@
-with open('day-9-input', 'r') as file
+with open('input/09.txt', 'r') as file:
     data = file.read().split('\n')
 
 import re

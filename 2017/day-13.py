@@ -1,6 +1,6 @@
 import itertools
 
-with open('day-13-input') as f:
+with open('input/13.txt') as f:
     lines = [line.split(': ') for line in f.readlines()]
 
 heights = {int(pos): int(height) for pos, height in lines}

@@ -1,6 +1,6 @@
 import re
 
-with open('day-12-input', 'r') as file:
+with open('input/12.txt', 'r') as file:
     my_data = file.read().split('\n')
 
 

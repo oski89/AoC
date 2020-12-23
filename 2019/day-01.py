@@ -1,6 +1,6 @@
 from math import floor
 
-with open('day-01-input', 'r') as file:
+with open('input/01.txt', 'r') as file:
     my_data = file.read().split()
 
 # Part 1
@@ -8,7 +8,7 @@ sum1 = 0
 for num in my_data:
     sum1 += floor(float(num)/3) - 2
 
-print(f'The fuel sum in Part 1 is: {sum1}')
+print(f'Part 1: {sum1}')
 
 # Part 2
 sum2 = 0
@@ -22,4 +22,4 @@ for num in my_data:
         else:
             fuel_done = True
 
-print(f'The fuel sum in Part 2 is: {sum2}')
+print(f'Part 2: {sum2}')

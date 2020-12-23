@@ -2,7 +2,7 @@ import re
 from collections import defaultdict
 import numpy
 
-with open('day-04-input', 'r') as file:
+with open('input/04.txt', 'r') as file:
     my_data = sorted(file.readlines())
 
 my_dict = defaultdict()

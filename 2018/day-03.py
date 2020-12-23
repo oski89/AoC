@@ -1,7 +1,7 @@
 import numpy as np
 import re
 
-with open('day-03-input', 'r') as file:
+with open('input/03.txt', 'r') as file:
     my_data = file.readlines()
 
 # Part 1

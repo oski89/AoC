@@ -1,5 +1,5 @@
-# Obtain input and store in list #
-dim = open('2_input')
+# Obtain input and store in list
+dim = open('input/02.txt')
 
 total_paper = 0
 

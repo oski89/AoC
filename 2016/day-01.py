@@ -1,5 +1,5 @@
 # Obtain input and store in list #
-file = open("1_input", "r")
+file = open("input/01.txt", "r")
 data = file.read()
 my_list = data.split(", ")
 
@@ -31,7 +31,7 @@ for action in my_list:
 blocks1 = abs(NESW[0] - NESW[2]) + abs(NESW[1] - NESW[3])
 print("Answer to part 1: ", blocks1)
 
-for places in visited:
+#for places in visited:
 
 
 file.close()

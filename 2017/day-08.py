@@ -1,6 +1,6 @@
 from typing import List, Dict
 
-with open('day-8-input') as f:
+with open('input/08.txt') as f:
     INPUT = f.read().split("\n")
 
 

@@ -1,5 +1,5 @@
 # Input data and make it a list of integers #
-data = open("day-5-input")
+data = open("input/05.txt")
 my_list = list(map(int, list(data)))
 
 #

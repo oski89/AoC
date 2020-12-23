@@ -1,6 +1,6 @@
 import numpy as np
 
-with open('day-06-input', 'r') as file:
+with open('input/06.txt', 'r') as file:
     my_data = [tuple(map(int, row.strip('\n').split(', '))) for row in file.readlines()]
 
 points = np.loadtxt('day-06-input', delimiter=', ')

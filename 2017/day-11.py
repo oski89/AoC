@@ -1,4 +1,4 @@
-with open("day-11-input", "r") as f:
+with open("input/11.txt", "r") as f:
     data = f.read().split(",")
 
 x = 0

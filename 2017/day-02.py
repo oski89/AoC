@@ -1,6 +1,4 @@
-import numpy as np
-
-with open('day-02-input', 'r') as file:
+with open('input/02.txt', 'r') as file:
     my_data = [row.split() for row in file.readlines()]
 
 my_data = [list(map(int, row)) for row in my_data]

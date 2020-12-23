@@ -1,5 +1,5 @@
 # Obtain input and store in list #
-file = open('day-4-input')
+file = open('input/04.txt')
 data = file.read()
 phrases = [row.split(" ") for row in data.split("\n")]
 

@@ -1,5 +1,5 @@
 # Obtain input and store in list
-with open('day-01-input', 'r') as file:
+with open('input/01.txt', 'r') as file:
     my_data = file.read()
 
 # Part 1 #

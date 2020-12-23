@@ -1,6 +1,6 @@
 from collections import Counter
 
-with open('day-02-input', 'r') as file:
+with open('input/02.txt', 'r') as file:
     my_data = file.read().split()
 
 # Part 1

@@ -1,4 +1,4 @@
-with open('day-12-input') as f:
+with open('input/12.txt') as f:
     INPUT = f.read().split('\n')
 
 # Create a dictionary with integers as keys and list of integers as values

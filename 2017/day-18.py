@@ -1,4 +1,4 @@
-with open('day-18-input') as f:
+with open('input/18.txt') as f:
     INPUT = [lines.split() for lines in f.readlines()]
 
 f2 = """set a 1
